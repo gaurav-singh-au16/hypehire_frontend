@@ -1,0 +1,104 @@
+.card-list {
+  padding: 20px;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  text-align: left;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #ffff;
+  padding: 10px;
+  color: black;
+}
+
+.title{
+  font-size: large;
+  font-weight: 550;
+  color: rgb(53, 47, 47);
+  margin-top: 10px;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: -10px;
+  /* margin-left: -10px; */
+  margin-top: -10px;
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  text-align: left;
+}
+
+.image-container {
+  width: 109%;
+  height: 250px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+}
+
+.original-price {
+  /* text-decoration: line-through; */
+  margin-right: 10px;
+  color: #e74c3c;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.discounted-price {
+  float: right;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.pull-to-refresh-container {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  color: #888;
+  z-index: 2;
+}
+
+/* ... (other styles) */
